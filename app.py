@@ -14,7 +14,7 @@ def read_uploaded_image(uploaded_image):
 
 # Main Streamlit app
 def main():
-  st.title("Affine Image Transformations")
+  st.title("AFFINE-IMAGE TRANSFORMATION ")
 
 uploaded_image = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
 
